@@ -1,0 +1,6 @@
+# helloworld-chart/Chart.yaml
+apiVersion: v2
+name: helloworld-chart
+description: A simple Helm chart to deploy a HelloWorld pod
+version: 0.1.0
+appVersion: "1.0"

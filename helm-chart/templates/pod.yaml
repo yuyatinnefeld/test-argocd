@@ -1,0 +1,18 @@
+# helloworld-chart/templates/pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helloworld-pod
+  labels:
+    app: helloworld
+spec:
+  containers:
+    - name: helloworld-container
+      image: "busybox:latest"
+      env:
+      - name: MESSAGE
+        value: {{ .Values.myMessage }}
+      command: ["sh", "-c", "echo $MESSAGE && sleep 3600"]
+      ports:
+        - containerPort: 8888
+      resources: {}
