@@ -1,1 +1,1 @@
-myMessage: "hello world from helm values.yaml"
+myMessage: "Hello from helm values.yaml"

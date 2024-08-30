@@ -1,4 +1,3 @@
-# helloworld-chart/templates/pod.yaml
 apiVersion: v1
 kind: Pod
 metadata:

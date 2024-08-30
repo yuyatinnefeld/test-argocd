@@ -1,4 +1,3 @@
-# helloworld-chart/Chart.yaml
 apiVersion: v2
 name: helloworld-chart
 description: A simple Helm chart to deploy a HelloWorld pod
